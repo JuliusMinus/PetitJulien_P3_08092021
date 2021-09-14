@@ -1,0 +1,95 @@
+.Ville {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 3rem;
+  background-color: rgb(223, 221, 221);
+  border-top: rgb(202, 201, 201) solid;
+  margin-bottom: 1rem;
+}
+
+#Localisation {
+  display: flex;
+  justify-content: center;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(223, 221, 221);
+  height: 3rem;
+  margin-left: 2%;
+}
+
+.fa-map-marker-alt {
+padding-left: 5rem;
+}
+
+.Reservation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-color: $color-quarternary;
+  height: 23rem;
+}
+.Reservation h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1.5rem;
+}
+
+.Reservation h3 {
+  display: flex;
+  justify-content: center;
+ }
+
+ .Reservation p {
+  display: flex;
+  justify-content: center;
+   margin-top: 2rem;
+ }
+
+ .Reservation a {
+  display: flex;
+  justify-content: center;
+   margin-top: -1rem;
+   margin-bottom: 2rem;
+ }
+
+.Fonctionnement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.Fonctionnement a {
+  color: white;
+  border: $color-primary solid;
+  background-color: $color-primary;
+  display: inline-block;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 70px;
+}
+
+.Fonctionnement input {
+  border: none;
+  background-color: $color-quarternary;
+  padding-right: 6rem;
+  width: 12rem;
+  margin-left: 1rem;
+}
+
+.Fonctionnement p {
+  background-color: $color-quarternary;
+  border-radius: 20px;
+  width: 16rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-left: 2rem;
+  margin-top: 0.2rem;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("Shrikhand-Regular.otf");
+}
+
+@font-face {
+  font-family:"Roboto";
+  src: url("RobotoSlab-Regular.ttf");
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.Reservation p {
+  font-family: Roboto;
+  font-size: 15px;
+  color:grey;
+}
+
+.Reservation a {
+  font-family: Roboto;
+  font-size: 15px;
+  color:grey;
+}

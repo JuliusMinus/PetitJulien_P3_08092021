@@ -1,0 +1,14 @@
+.bouton-rose {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.bouton-rose input {
+  width: 12rem;
+  height: 3rem;
+  border-color: $color-secondary;
+  border-radius: 25px;
+  background-color:$color-secondary ;
+  color: white;
+}
