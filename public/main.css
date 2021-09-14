@@ -36,18 +36,18 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .bouton-rose input {
   width: 12rem;
   height: 3rem;
-  border-color: #FF79DA;
+  border-color: #ff79da;
   border-radius: 25px;
-  background-color: #FF79DA;
+  background-color: #ff79da;
   color: white;
 }
 
@@ -57,8 +57,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .logo img {
@@ -66,16 +66,46 @@ h2 {
   height: 2rem;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 2rem;
+}
+
+footer h2 {
+  font-family: Shrikhand;
+  color: white;
+  margin-left: 2rem;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-left: 2rem;
+  margin-bottom: -0.2rem;
+}
+
+footer i {
+  margin-right: 1rem;
+}
+
 .Ville {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   height: 3rem;
   background-color: #dfdddd;
   border-top: #cac9c9 solid;
@@ -87,8 +117,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: none;
   font-weight: bold;
   font-size: 16px;
@@ -107,13 +137,13 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #f1efef;
   width: 102%;
   height: 17rem;
@@ -125,8 +155,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: -1.5rem;
 }
 
@@ -135,8 +165,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .Reservation p {
@@ -144,8 +174,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 2rem;
 }
 
@@ -154,8 +184,8 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: -1rem;
   margin-bottom: 2rem;
 }
@@ -166,16 +196,16 @@ h2 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 .Fonctionnement h2 {
@@ -188,8 +218,8 @@ h2 {
 
 .Fonctionnement a {
   color: white;
-  border: #9356DC solid;
-  background-color: #9356DC;
+  border: #9356dc solid;
+  background-color: #9356dc;
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   border-radius: 70px;
   margin-right: 5rem;
@@ -215,13 +245,57 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: 1rem;
 }
 
 .Fonctionnement i {
   margin-right: 2rem;
   margin-left: -3rem;
+}
+
+.Cartes-restaurants {
+  width: 102%;
+  background-color: #f1efef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-items: center;
+}
+
+.Cartes-restaurants div {
+  background-color: white;
+  margin: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Cartes-restaurants div img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Cartes-restaurants div p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Cartes-restaurants div a {
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

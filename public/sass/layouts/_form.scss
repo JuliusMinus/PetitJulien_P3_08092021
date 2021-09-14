@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 2rem;
+
+  h2 {
+    font-family: Shrikhand;
+    color: white;
+    margin-left: 2rem;
+  }
+  p {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-left: 2rem;
+    margin-bottom: -0.2rem;
+  }
+  i {
+    margin-right: 1rem;
+  }
+}

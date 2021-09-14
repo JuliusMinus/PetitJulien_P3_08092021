@@ -106,3 +106,37 @@
   margin-right: 2rem;
   margin-left: -3rem;
 }
+
+.Cartes-restaurants {
+  width: 102%;
+  background-color: $color-quarternary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.Cartes-restaurants div {
+  background-color: white;
+  margin: 1rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Cartes-restaurants div img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Cartes-restaurants div p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Cartes-restaurants div a {
+  font-size: 18px;
+}
