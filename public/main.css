@@ -115,6 +115,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f1efef;
+  width: 102%;
   height: 17rem;
   padding-bottom: 4rem;
 }
@@ -177,13 +178,22 @@ h2 {
       align-content: center;
 }
 
+.Fonctionnement h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+}
+
 .Fonctionnement a {
   color: white;
   border: #9356DC solid;
   background-color: #9356DC;
-  display: inline-block;
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   border-radius: 70px;
+  margin-right: 5rem;
+  margin-left: -0.6rem;
 }
 
 .Fonctionnement input {
@@ -191,26 +201,27 @@ h2 {
   background-color: #f1efef;
   padding-right: 6rem;
   width: 12rem;
-  margin-left: 1rem;
+  margin-left: -1rem;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .Fonctionnement p {
   background-color: #f1efef;
   border-radius: 20px;
-  width: 16rem;
+  width: 20rem;
   height: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-left: 2rem;
-  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+
+.Fonctionnement i {
+  margin-right: 2rem;
+  margin-left: -3rem;
 }
 /*# sourceMappingURL=main.css.map */
