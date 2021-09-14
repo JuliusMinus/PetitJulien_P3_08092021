@@ -115,7 +115,8 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f1efef;
-  height: 23rem;
+  height: 17rem;
+  padding-bottom: 4rem;
 }
 
 .Reservation h2 {
