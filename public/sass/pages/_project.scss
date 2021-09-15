@@ -1,3 +1,14 @@
+
+.logo {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 10rem;
+  height: 2rem;
+}
+
 .Ville {
   display: flex;
   justify-content: center;
@@ -120,8 +131,7 @@
 .Cartes-restaurants div {
   background-color: white;
   margin: 1rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .Cartes-restaurants div img {

@@ -1,0 +1,31 @@
+
+.main-menu div img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: -5rem;
+}
+
+.menu {
+  background-color: $color-quarternary;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+ 
+}
+
+.Entrees div {
+  background-color: white;
+}
+
+.Plats div {
+  background-color: white;
+}
+
+.Desserts div {
+  background-color: white;
+}
+
+.bouton-rose {
+  padding: 2rem;
+}
+

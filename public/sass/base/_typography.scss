@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family:"Roboto";
+  font-family: "Roboto";
   src: url("RobotoSlab-Regular.ttf");
 }
 
@@ -16,11 +16,21 @@ h2 {
 .Reservation p {
   font-family: Roboto;
   font-size: 15px;
-  color:grey;
+  color: grey;
 }
 
 .Reservation a {
   font-family: Roboto;
   font-size: 15px;
-  color:grey;
+  color: grey;
+}
+
+.heading-menu {
+  font-family: Shrikhand;
+  margin-left: 1rem;
+  padding-top: 3rem;
+}
+
+.heading-menu i {
+  margin-left: 2rem;
 }

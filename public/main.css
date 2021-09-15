@@ -31,39 +31,90 @@ h2 {
   color: grey;
 }
 
+.heading-menu {
+  font-family: Shrikhand;
+  margin-left: 1rem;
+  padding-top: 3rem;
+}
+
+.heading-menu i {
+  margin-left: 2rem;
+}
+
 .bouton-rose {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
 }
 
 .bouton-rose input {
   width: 12rem;
   height: 3rem;
-  border-color: #ff79da;
+  border-color: #FF79DA;
   border-radius: 25px;
-  background-color: #ff79da;
+  background-color: #FF79DA;
   color: white;
 }
 
-.logo {
-  margin: 1rem;
+.head-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1rem;
 }
 
-.logo img {
+.logo-menu img {
   width: 10rem;
   height: 2rem;
+}
+
+.fleche {
+  position: absolute;
+  top: 1.5rem;
+  left: 3%;
+}
+
+.main-menu div img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: -5rem;
+}
+
+.menu {
+  background-color: #f1efef;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.Entrees div {
+  background-color: white;
+}
+
+.Plats div {
+  background-color: white;
+}
+
+.Desserts div {
+  background-color: white;
+}
+
+.bouton-rose {
+  padding: 2rem;
 }
 
 footer {
@@ -72,8 +123,8 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: black;
   padding-bottom: 2rem;
 }
@@ -96,16 +147,31 @@ footer i {
   margin-right: 1rem;
 }
 
+.logo {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo img {
+  width: 10rem;
+  height: 2rem;
+}
+
 .Ville {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   height: 3rem;
   background-color: #dfdddd;
   border-top: #cac9c9 solid;
@@ -117,8 +183,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border: none;
   font-weight: bold;
   font-size: 16px;
@@ -137,13 +203,13 @@ footer i {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #f1efef;
   width: 102%;
   height: 17rem;
@@ -155,8 +221,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: -1.5rem;
 }
 
@@ -165,8 +231,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Reservation p {
@@ -174,8 +240,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 2rem;
 }
 
@@ -184,8 +250,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: -1rem;
   margin-bottom: 2rem;
 }
@@ -196,16 +262,16 @@ footer i {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
 }
 
 .Fonctionnement h2 {
@@ -218,8 +284,8 @@ footer i {
 
 .Fonctionnement a {
   color: white;
-  border: #9356dc solid;
-  background-color: #9356dc;
+  border: #9356DC solid;
+  background-color: #9356DC;
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   border-radius: 70px;
   margin-right: 5rem;
@@ -245,8 +311,8 @@ footer i {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 1rem;
 }
 
@@ -263,29 +329,28 @@ footer i {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   align-items: center;
 }
 
 .Cartes-restaurants div {
   background-color: white;
   margin: 1rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 
 .Cartes-restaurants div img {
   width: 100%;
   height: auto;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }

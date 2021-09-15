@@ -1,9 +1,18 @@
-.logo {
-  margin: 1rem;
+.head-menu {
   display: flex;
+  align-items: center;
   justify-content: center;
+  align-content: center;
+  margin: 1rem;
 }
-.logo img {
+
+.logo-menu img {
   width: 10rem;
   height: 2rem;
+}
+
+.fleche {
+  position: absolute;
+  top: 1.5rem;
+  left: 3%;
 }
