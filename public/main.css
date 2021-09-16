@@ -19,13 +19,41 @@ h2 {
   font-weight: 600;
 }
 
+.menu h2 {
+  font-family: Shrikhand;
+  font-weight: 100;
+  font-size: 35px;
+  margin-left: 1rem;
+}
+
+.menu h2 i {
+  position: absolute;
+  right: 3rem;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-left: 1rem;
+  color: #4b5555;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+  -webkit-text-decoration-color: #99E2D0;
+          text-decoration-color: #99E2D0;
+  text-decoration-thickness: 4px;
+  text-underline-position: under;
+}
+
 .Reservation p {
   font-family: Roboto;
   font-size: 15px;
   color: grey;
 }
 
-.Reservation a {
+.Reservation p a {
   font-family: Roboto;
   font-size: 15px;
   color: grey;
@@ -41,6 +69,32 @@ h2 {
   margin-left: 2rem;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu div {
+  margin: 0.5rem;
+  height: 5rem;
+}
+
+.menu div p {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu div a {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.menu div span {
+  position: absolute;
+  left: 90%;
+}
+
 .bouton-rose {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,6 +104,7 @@ h2 {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  background-color: #f1efef;
 }
 
 .bouton-rose input {
@@ -87,34 +142,32 @@ h2 {
   left: 3%;
 }
 
-.main-menu div img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  margin-bottom: -5rem;
-}
-
 .menu {
-  background-color: #f1efef;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  background-color: #eeeeee;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.Entrees div {
+.menu div {
   background-color: white;
-}
-
-.Plats div {
-  background-color: white;
-}
-
-.Desserts div {
-  background-color: white;
+  height: 5rem;
+  border-radius: 15px;
 }
 
 .bouton-rose {
   padding: 2rem;
+  margin-top: -1.5rem;
+}
+
+.img-resto img {
+  width: 100%;
+  height: auto;
+}
+
+.bouton-rose {
+  background-color: #f1efef;
 }
 
 footer {
@@ -155,6 +208,7 @@ footer i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .logo img {
