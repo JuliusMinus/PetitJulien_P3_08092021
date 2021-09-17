@@ -22,13 +22,13 @@ h2 {
 .menu h2 {
   font-family: Shrikhand;
   font-weight: 100;
-  font-size: 35px;
+  font-size: 30px;
   margin-left: 1rem;
 }
 
 .menu h2 i {
   position: absolute;
-  right: 3rem;
+  right: 1.5rem;
 }
 
 h3 {
@@ -47,6 +47,11 @@ h3 {
   text-underline-position: under;
 }
 
+.Reservation h2 {
+  font-family: Roboto;
+  font-weight: 600;
+}
+
 .Reservation p {
   font-family: Roboto;
   font-size: 15px;
@@ -57,16 +62,6 @@ h3 {
   font-family: Roboto;
   font-size: 15px;
   color: grey;
-}
-
-.heading-menu {
-  font-family: Shrikhand;
-  margin-left: 1rem;
-  padding-top: 3rem;
-}
-
-.heading-menu i {
-  margin-left: 2rem;
 }
 
 a {
@@ -154,20 +149,18 @@ a {
   background-color: white;
   height: 5rem;
   border-radius: 15px;
+  margin: 0.5rem;
 }
 
 .bouton-rose {
   padding: 2rem;
   margin-top: -1.5rem;
+  background-color: #f1efef;
 }
 
 .img-resto img {
   width: 100%;
   height: auto;
-}
-
-.bouton-rose {
-  background-color: #f1efef;
 }
 
 footer {
@@ -198,6 +191,76 @@ footer p {
 
 footer i {
   margin-right: 1rem;
+}
+
+.spin {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: disparition_spin 2s linear;
+          animation: disparition_spin 2s linear;
+  visibility: hidden;
+}
+
+.loader {
+  border: 16px solid #f1efef;
+  border-top: 16px solid #99E2D0;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 1s linear 2;
+          animation: spin 1s linear 2;
+}
+
+@-webkit-keyframes disparition_spin {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes disparition_spin {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .logo {

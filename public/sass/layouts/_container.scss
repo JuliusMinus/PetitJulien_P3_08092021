@@ -9,19 +9,17 @@
     background-color: white;
     height: 5rem;
     border-radius: 15px;
+    margin: 0.5rem;
   }
 }
 
 .bouton-rose {
   padding: 2rem;
   margin-top: -1.5rem;
+  background-color: $color-quarternary;
 }
 
 .img-resto img {
   width: 100%;
   height: auto;
-}
-
-.bouton-rose {
-  background-color: $color-quarternary;
 }

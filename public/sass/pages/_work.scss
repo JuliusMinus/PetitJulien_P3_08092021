@@ -1,0 +1,38 @@
+.spin {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: disparition_spin 2s linear;
+  visibility: hidden;
+}
+.loader {
+  border: 16px solid $color-quarternary;
+  border-top: 16px solid $color-tertiary;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear 2;
+}
+
+@keyframes disparition_spin {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
