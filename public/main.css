@@ -105,10 +105,89 @@ a {
 .bouton-rose input {
   width: 12rem;
   height: 3rem;
-  border-color: #FF79DA;
+  border-width: 0px;
+  border-top-color: #FF79DA;
+  border-bottom-color: #9356DC;
   border-radius: 25px;
   background-color: #FF79DA;
   color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(to bottom, #FF79DA, #9356DC);
+  -webkit-box-shadow: 0px 4px 0px 0px #e0e0e0;
+          box-shadow: 0px 4px 0px 0px #e0e0e0;
+}
+
+.bouton-rose input:hover {
+  opacity: 0.7;
+  -webkit-box-shadow: 0px 4px 0px 0px #b1b1b1;
+          box-shadow: 0px 4px 0px 0px #b1b1b1;
+}
+
+.Fonctionnement :hover h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.Fonctionnement :hover a {
+  color: white;
+  border: #9356DC solid;
+  background-color: #9356DC;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 70px;
+  margin-right: 5rem;
+  margin-left: -0.6rem;
+}
+
+.Fonctionnement :hover input {
+  border: none;
+  background-color: #efe3ff;
+  padding-right: 6rem;
+  width: 12rem;
+  margin-left: -1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Fonctionnement :hover p {
+  background-color: #efe3ff;
+  border-radius: 20px;
+  width: 20rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+}
+
+.Fonctionnement :hover i {
+  margin-right: 2rem;
+  margin-left: -3rem;
+}
+
+.coeur-1 i:hover {
+  background-color: white;
+}
+
+.coeur-1 i::before {
+  color: white;
+  font-weight: bold;
+  -webkit-transition: color 2s ease-out;
+  transition: color 2s ease-out;
+}
+
+.coeur-1 i:hover::before {
+  color: #9356DC;
+  cursor: pointer;
+}
+
+.coeur-2 i:hover {
+  display: none;
 }
 
 .head-menu {
@@ -152,12 +231,6 @@ a {
   margin: 0.5rem;
 }
 
-.bouton-rose {
-  padding: 2rem;
-  margin-top: -1.5rem;
-  background-color: #f1efef;
-}
-
 .img-resto img {
   width: 100%;
   height: auto;
@@ -197,7 +270,7 @@ footer i {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: #f1efef;
   opacity: 0.8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,8 +287,8 @@ footer i {
 }
 
 .loader {
-  border: 16px solid #f1efef;
-  border-top: 16px solid #99E2D0;
+  border: 16px solid #99E2D0;
+  border-top: 16px solid #FF79DA;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -479,5 +552,21 @@ footer i {
 
 .Cartes-restaurants div a {
   font-size: 18px;
+}
+
+.coeur-1 i {
+  position: absolute;
+  left: 85%;
+  margin-top: -2.4rem;
+  color: white;
+  font-weight: bold;
+}
+
+.coeur-2 i {
+  position: absolute;
+  left: 85%;
+  margin-top: -2.4rem;
+  color: grey;
+  font-weight: 200;
 }
 /*# sourceMappingURL=main.css.map */

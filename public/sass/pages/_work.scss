@@ -2,7 +2,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: $color-quarternary;
   opacity: 0.8;
   display: flex;
   justify-content: center;
@@ -11,8 +11,9 @@
   visibility: hidden;
 }
 .loader {
-  border: 16px solid $color-quarternary;
-  border-top: 16px solid $color-tertiary;
+
+  border: 16px solid $color-tertiary;
+  border-top: 16px solid $color-secondary;
   border-radius: 50%;
   width: 120px;
   height: 120px;
