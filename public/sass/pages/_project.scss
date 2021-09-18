@@ -40,7 +40,7 @@
   align-content: center;
   justify-content: center;
   background-color: $color-quarternary;
-  width: 102%;
+  width: 100%;
   height: 17rem;
   padding-bottom: 4rem;
 }
@@ -119,7 +119,7 @@
 }
 
 .Cartes-restaurants {
-  width: 102%;
+  width: 100%;
   background-color: $color-quarternary;
   display: flex;
   flex-direction: column;
@@ -132,12 +132,16 @@
   background-color: white;
   margin: 1rem;
   border-radius: 20px;
+  width: 96%;
+  height: 20rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .Cartes-restaurants div img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 13rem;
+  object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }

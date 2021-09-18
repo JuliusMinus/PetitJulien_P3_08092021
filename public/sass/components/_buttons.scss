@@ -83,3 +83,19 @@
 .coeur-2 i:hover {
   display: none;
 }
+
+.btn-new {
+  width: 6rem;
+  height: auto;
+  border: $color-tertiary solid;
+  background-color: $color-tertiary;
+  color:#3e8171 ;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: absolute;
+  left: 66%;
+ }
+
+
