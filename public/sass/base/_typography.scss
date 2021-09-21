@@ -60,21 +60,22 @@ a {
   text-decoration: none;
 }
 
-.menu div {
+.carte {
   margin: 0.5rem;
   height: 5rem;
 
-  p {
+  .plat {
     font-family: Roboto;
     font-weight: bold;
     font-size: 20px;
+
   }
-  a {
+
+  
+  .accompagnement {
     font-family: Roboto;
     font-size: 15px;
+   
   }
-  span {
-    position: absolute;
-    left: 90%;
-  }
+  
 }
