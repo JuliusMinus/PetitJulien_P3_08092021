@@ -11,7 +11,6 @@
   visibility: hidden;
 }
 .loader {
-
   border: 16px solid $color-tertiary;
   border-top: 16px solid $color-secondary;
   border-radius: 50%;
@@ -36,4 +35,29 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.coeur-1 {
+  position: absolute;
+  left: 85%;
+  margin-top: -2.4rem;
+  background-color: white;
+  color: $color-primary;
+}
+
+.coeur-2 {
+  position: absolute;
+  left: 85%;
+  margin-top: -2.4rem;
+  background-color: white;
+  transition: 2000ms;
+  color: grey;
+}
+
+.coeur-1:hover {
+  opacity: 1;
+}
+
+.coeur-2:hover {
+  opacity: 0;
 }

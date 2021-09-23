@@ -93,10 +93,10 @@
   }
 }
 .entrees {
-  animation: entrees 500ms 150ms backwards;
+  animation: entrees 1000ms 150ms backwards;
 }
 
-@keyframes entrees {
+@keyframes entrees{
   0% {
     opacity: 0;
   }
@@ -109,7 +109,7 @@
   animation: principal 1000ms 500ms backwards;
 }
 
-@keyframes principal {
+@keyframes principal{
   0% {
     opacity: 0;
   }

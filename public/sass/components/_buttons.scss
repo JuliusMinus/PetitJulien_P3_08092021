@@ -67,23 +67,6 @@
   }
 }
 
-.coeur-1 i:hover {
-  background-color: white;
-}
-
-.coeur-1 i::before {
-  color: white;
-  font-weight: bold;
-  transition: color 2s ease-out;
-}
-.coeur-1 i:hover::before {
-  color: $color-primary;
-  cursor: pointer;
-}
-
-.coeur-2 i:hover {
-  display: none;
-}
 
 .btn-new {
   width: 6rem;
