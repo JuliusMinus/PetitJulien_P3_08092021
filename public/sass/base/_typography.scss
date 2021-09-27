@@ -1,81 +1,9 @@
-@font-face {
-  font-family: "Shrikhand";
-  src: url("Shrikhand-Regular.otf");
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Shrikhand", cursive;
 }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("RobotoSlab-Regular.ttf");
-}
-
-h2 {
+.Reservation h2 {
   font-family: Roboto;
-  font-weight: 600;
-}
-
-.menu h2 {
-  font-family: Shrikhand;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 1rem;
-
-  i {
-    position: absolute;
-    right: 1.5rem;
-  }
-}
-
-h3 {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  margin-left: 1rem;
-  color: rgb(75, 85, 85);
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: $color-tertiary;
-  text-decoration-thickness: 4px;
-  text-underline-position: under;
-}
-
-.Reservation {
-  h2 {
-    font-family: Roboto;
-    font-weight: 600;
-  }
-  p {
-    font-family: Roboto;
-    font-size: 15px;
-    color: grey;
-    a {
-      font-family: Roboto;
-      font-size: 15px;
-      color: grey;
-    }
-  }
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.carte {
-  margin: 0.5rem;
-  height: 5rem;
-
-  .plat {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 20px;
-
-  }
-
-  
-  .accompagnement {
-    font-family: Roboto;
-    font-size: 15px;
-   
-  }
-  
+  font-weight: 700;
 }

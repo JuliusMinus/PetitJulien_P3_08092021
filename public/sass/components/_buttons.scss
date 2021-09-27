@@ -26,45 +26,11 @@
 
 .Fonctionnement :hover {
   cursor: pointer;
-  h2 {
-    display: flex;
-    width: 100%;
-    margin-left: 5%;
-  }
-
-  a {
-    color: white;
-    border: $color-primary solid;
-    background-color: $color-primary;
-    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-    border-radius: 70px;
-    margin-right: 5rem;
-    margin-left: -0.6rem;
-  }
-
   input {
-    border: none;
     background-color: #efe3ff;
-    padding-right: 6rem;
-    width: 12rem;
-    margin-left: -1rem;
-    font-size: 14px;
-    font-weight: bold;
   }
-
   p {
     background-color: #efe3ff;
-    border-radius: 20px;
-    width: 20rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-  }
-
-  i {
-    margin-right: 2rem;
-    margin-left: -3rem;
   }
 }
 
