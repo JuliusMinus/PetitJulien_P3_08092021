@@ -3,7 +3,38 @@ body {
   font-family: "Shrikhand", cursive;
 }
 
-.Reservation h2 {
-  font-family: Roboto;
-  font-weight: 700;
+.Reservation {
+  h2 {
+    font-family: Roboto;
+    font-weight: 700;
+  }
+  p,
+  a {
+    font-family: Roboto;
+    font-weight: 400;
+    color: grey;
+  }
+}
+
+.Cartes-restaurants {
+  h2 {
+    font-family: Roboto;
+    font-weight: 700;
+  }
+  a {
+    text-decoration: none;
+
+    p.nom {
+      margin-left: 5%;
+      color: black;
+      font-weight: 700;
+    }
+
+    p.quartier {
+      margin-left: 5%;
+      color: black;
+      font-weight: 300;
+      margin-top: -0.5rem;
+    }
+  }
 }

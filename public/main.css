@@ -8,6 +8,35 @@ body {
   font-weight: 700;
 }
 
+.Reservation p,
+.Reservation a {
+  font-family: Roboto;
+  font-weight: 400;
+  color: grey;
+}
+
+.Cartes-restaurants h2 {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.Cartes-restaurants a {
+  text-decoration: none;
+}
+
+.Cartes-restaurants a p.nom {
+  margin-left: 5%;
+  color: black;
+  font-weight: 700;
+}
+
+.Cartes-restaurants a p.quartier {
+  margin-left: 5%;
+  color: black;
+  font-weight: 300;
+  margin-top: -0.5rem;
+}
+
 .bouton-rose {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +71,7 @@ body {
           box-shadow: 0px 4px 0px 0px #b1b1b1;
 }
 
+/*animation btn-fonctionnement*/
 .Fonctionnement :hover {
   cursor: pointer;
 }
@@ -54,7 +84,11 @@ body {
   background-color: #efe3ff;
 }
 
+/*animation btn"nouveau"*/
 .btn-new {
+  position: absolute;
+  top: -2rem;
+  left: 60%;
   width: 6rem;
   height: auto;
   border: #99E2D0 solid;
@@ -70,8 +104,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  left: 66%;
 }
 
 .head-menu {
@@ -272,6 +304,7 @@ footer {
   background-color: black;
   padding-bottom: 2rem;
   width: 100%;
+  margin-top: -2rem;
 }
 
 footer h2 {
@@ -292,6 +325,12 @@ footer i {
   margin-right: 1rem;
 }
 
+footer a {
+  text-decoration: none;
+}
+
+/*animation page d'acceuil*/
+/*animation spin loader*/
 .spin {
   position: absolute;
   height: 100%;
@@ -362,10 +401,11 @@ footer i {
   }
 }
 
+/*animation colored heart*/
 .coeur-1 {
   position: absolute;
   left: 85%;
-  margin-top: -2.4rem;
+  margin-top: 11rem;
   background-color: white;
   color: #9356DC;
 }
@@ -373,7 +413,7 @@ footer i {
 .coeur-2 {
   position: absolute;
   left: 85%;
-  margin-top: -2.4rem;
+  margin-top: 11rem;
   background-color: white;
   -webkit-transition: 2000ms;
   transition: 2000ms;
@@ -392,7 +432,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -403,7 +443,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .logo img {
@@ -476,15 +516,6 @@ body {
   margin-bottom: -1.5rem;
 }
 
-.Reservation h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .Reservation p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,6 +553,7 @@ body {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  margin-bottom: 3rem;
 }
 
 .Fonctionnement h2 {
@@ -564,6 +596,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 1rem;
+  -webkit-box-shadow: 0px 4px 0px 0px #e7e7e7;
+          box-shadow: 0px 4px 0px 0px #e7e7e7;
 }
 
 .Fonctionnement i {
@@ -574,6 +608,16 @@ body {
 .Cartes-restaurants {
   width: 100%;
   background-color: #f1efef;
+  padding-bottom: 1rem;
+}
+
+.Cartes-restaurants h2 {
+  margin-left: 5%;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.Cartes-restaurants div a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,37 +628,22 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  align-items: center;
-}
-
-.Cartes-restaurants div {
+  position: relative;
   background-color: white;
-  margin: 1rem;
+  margin-left: 5%;
+  margin-bottom: 5rem;
   border-radius: 20px;
-  width: 100%;
-  height: 20rem;
-  margin-left: 2%;
-  margin-right: 2%;
+  width: 90%;
+  height: 15rem;
 }
 
-.Cartes-restaurants div img {
+.Cartes-restaurants div a img {
   width: 100%;
   height: 13rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-.Cartes-restaurants div p {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.Cartes-restaurants div a {
-  font-size: 18px;
+  margin-top: -2rem;
 }
 /*# sourceMappingURL=main.css.map */
