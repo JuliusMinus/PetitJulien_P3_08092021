@@ -3,14 +3,14 @@ body {
   font-family: "Shrikhand", cursive;
 }
 
+/*polices page d'acceuil*/
+
 .Reservation {
   h2 {
-    font-family: Roboto;
     font-weight: 700;
   }
   p,
   a {
-    font-family: Roboto;
     font-weight: 400;
     color: grey;
   }
@@ -18,7 +18,6 @@ body {
 
 .Cartes-restaurants {
   h2 {
-    font-family: Roboto;
     font-weight: 700;
   }
   a {
@@ -38,3 +37,5 @@ body {
     }
   }
 }
+
+/*polices pages menu*/

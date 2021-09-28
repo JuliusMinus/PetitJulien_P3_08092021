@@ -146,3 +146,41 @@ body {
     }
   }
 }
+
+/*media-querries small screen page d'acceuil*/
+
+@media only screen and (min-width: 270px) and (max-width: 350px) {
+  #Localisation {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .Fonctionnement {
+    p {
+      width: 15rem;
+    }
+    input {
+      margin-left: -22%;
+    }
+    i {
+      position: absolute;
+      left: 39%;
+    }
+  }
+  .btn-new {
+    left: 50%;
+  }
+}
+
+/*media-querries tablet screen page d'acceuil*/
+@media only screen and (min-width: 550px) and (max-width: 800px){
+  .btn-new {
+    left: 75%;
+  }
+}
+
+/*media-querries desktop screen page d'acceuil*/
+@media only screen and (min-width: 801px) and (max-width: 1600px){
+  .btn-new {
+    left: 85%;
+  }
+}

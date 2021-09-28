@@ -3,20 +3,18 @@ body {
   font-family: "Shrikhand", cursive;
 }
 
+/*polices page d'acceuil*/
 .Reservation h2 {
-  font-family: Roboto;
   font-weight: 700;
 }
 
 .Reservation p,
 .Reservation a {
-  font-family: Roboto;
   font-weight: 400;
   color: grey;
 }
 
 .Cartes-restaurants h2 {
-  font-family: Roboto;
   font-weight: 700;
 }
 
@@ -37,6 +35,7 @@ body {
   margin-top: -0.5rem;
 }
 
+/*polices pages menu*/
 .bouton-rose {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,7 +87,7 @@ body {
 .btn-new {
   position: absolute;
   top: -2rem;
-  left: 60%;
+  left: 65%;
   width: 6rem;
   height: auto;
   border: #99E2D0 solid;
@@ -645,5 +644,40 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-top: -2rem;
+}
+
+/*media-querries small screen page d'acceuil*/
+@media only screen and (min-width: 270px) and (max-width: 350px) {
+  #Localisation {
+    width: 80%;
+    margin-left: 5%;
+  }
+  .Fonctionnement p {
+    width: 15rem;
+  }
+  .Fonctionnement input {
+    margin-left: -22%;
+  }
+  .Fonctionnement i {
+    position: absolute;
+    left: 39%;
+  }
+  .btn-new {
+    left: 50%;
+  }
+}
+
+/*media-querries tablet screen page d'acceuil*/
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+  .btn-new {
+    left: 75%;
+  }
+}
+
+/*media-querries desktop screen page d'acceuil*/
+@media only screen and (min-width: 801px) and (max-width: 1600px) {
+  .btn-new {
+    left: 85%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
