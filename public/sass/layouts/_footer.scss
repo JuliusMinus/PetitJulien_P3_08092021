@@ -2,13 +2,16 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: black;
+  padding-top: 1rem;
   padding-bottom: 2rem;
   width: 100%;
-  margin-top: -2rem;
+  margin-bottom: -3rem;
+
   h2 {
     font-family: Shrikhand;
     color: white;
     margin-left: 2rem;
+    
   }
   p {
     font-size: 16px;

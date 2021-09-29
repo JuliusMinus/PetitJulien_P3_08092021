@@ -39,3 +39,41 @@ body {
 }
 
 /*polices pages menu*/
+
+.menu {
+  h2 {
+    font-family: Shrikhand;
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 4%;
+    margin-top: -0.5rem;
+
+    i {
+     position: absolute;
+     left: 80%;
+     top: 1.8rem;
+    }
+  }
+  h3 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 4%;
+    border-bottom: $color-tertiary solid;
+    border-width: 3px;
+    padding-bottom: 0.3rem;
+    width: 2.5rem;
+    
+
+  }
+  .plat {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 0.3rem;
+  }
+
+  .accompagnement {
+    margin-top: -0.5rem;
+  }
+}
