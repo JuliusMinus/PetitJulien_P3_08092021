@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*couleurs communes à toutes les pages*/
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Shrikhand", cursive;
@@ -72,6 +74,7 @@ body {
   margin-top: -0.5rem;
 }
 
+/*boutons commun à toutes les pages*/
 .bouton-rose1,
 .bouton-rose2 {
   display: -webkit-box;
@@ -145,6 +148,7 @@ body {
           align-items: center;
 }
 
+/*header commun à toutes les pages*/
 .head-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,6 +175,7 @@ body {
   left: 3%;
 }
 
+/*css commun à toutes les pages-menu*/
 body {
   width: 100%;
   margin: 0;
@@ -213,6 +218,12 @@ body {
      object-fit: cover;
 }
 
+.bouton-rose2 {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+
+/*animation: apparition-coche et rognage-textes*/
 .fa-check {
   color: #99E2D0;
   background-color: white;
@@ -300,6 +311,7 @@ body {
   margin-top: -2.2rem;
 }
 
+/*animation: apparition progressive des cartes*/
 @-webkit-keyframes carte_keyframes {
   0% {
     opacity: 0;
@@ -308,7 +320,6 @@ body {
     opacity: 1;
   }
 }
-
 @keyframes carte_keyframes {
   0% {
     opacity: 0;
@@ -343,11 +354,51 @@ body {
           animation-delay: 1200ms;
 }
 
-.bouton-rose2 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+/* media querries pages menu xs screen*/
+@media only screen and (min-width: 270px) and (max-width: 350px) {
+  .carte .plat {
+    font-size: 14px;
+    width: 200px;
+  }
+  .carte .accompagnement {
+    font-size: 13px;
+    margin-top: 1rem;
+    width: 200px;
+  }
+  .carte a {
+    left: 80%;
+    top: 3rem;
+  }
+  .carte:hover .accompagnement,
+  .carte:hover .plat {
+    width: 100px;
+    text-overflow: ellipsis;
+  }
+  .carte:hover a {
+    position: absolute;
+    left: 60%;
+    margin-top: -2.2rem;
+  }
 }
 
+/* media querries pages menu tablet et desktop screen*/
+@media only screen and (min-width: 550px) and (max-width: 1600px) {
+  .carte:hover .coche {
+    width: 15%;
+    left: 85%;
+  }
+  .carte:hover .accompagnement,
+  .carte:hover .plat {
+    width: 300px;
+  }
+  .carte:hover a {
+    position: absolute;
+    left: 78%;
+    margin-top: -2.2rem;
+  }
+}
+
+/*footer commun à toutes les pages*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,7 +411,6 @@ footer {
   padding-top: 1rem;
   padding-bottom: 2rem;
   width: 100%;
-  margin-bottom: -3rem;
 }
 
 footer h2 {
@@ -484,6 +534,7 @@ footer a {
   opacity: 0;
 }
 
+/*css de la page d'acceuil*/
 body {
   width: 100%;
   margin: 0;

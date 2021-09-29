@@ -1,3 +1,6 @@
+
+/*css de la page d'acceuil*/
+
 body {
   width: 100%;
   margin: 0;
@@ -172,14 +175,14 @@ body {
 }
 
 /*media-querries tablet screen page d'acceuil*/
-@media only screen and (min-width: 550px) and (max-width: 800px){
+@media only screen and (min-width: 550px) and (max-width: 800px) {
   .btn-new {
     left: 75%;
   }
 }
 
 /*media-querries desktop screen page d'acceuil*/
-@media only screen and (min-width: 801px) and (max-width: 1600px){
+@media only screen and (min-width: 801px) and (max-width: 1600px) {
   .btn-new {
     left: 85%;
   }
