@@ -111,6 +111,32 @@ body {
   }
 }
 
+/*animation colored heart page menu*/
+.coeur-3 {
+  position: absolute;
+  left: 85%;
+  margin-top: -3.7rem;
+  background-color: $color-quarternary; ;
+  color: $color-primary;
+}
+
+.coeur-4 {
+  position: absolute;
+  left: 85%;
+  margin-top: -3.7rem;
+  background-color: $color-quarternary;
+  transition: 2000ms;
+  color: grey;
+}
+
+.coeur-3:hover {
+  opacity: 1;
+}
+
+.coeur-4:hover {
+  opacity: 0;
+}
+
 /*animation: apparition progressive des cartes*/
 
 @keyframes carte_keyframes {
@@ -173,9 +199,33 @@ body {
   }
 }
 
-/* media querries pages menu tablet et desktop screen*/
+/* media querries pages menu tablet screen*/
 
-@media only screen and (min-width: 550px) and (max-width: 1600px) {
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+
+}
+
+
+
+/* media querries pages menu desktop screen*/
+
+@media only screen and (min-width: 950px) and (max-width: 2000px) {
+  .entrees,
+  .principal,
+  .desserts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    .carte {
+      width: 28%;
+      a {
+        left: 80%;
+      }
+    }
+  }
+
   .carte:hover {
     .coche {
       width: 15%;
@@ -184,12 +234,12 @@ body {
 
     .accompagnement,
     .plat {
-      width: 300px;
+      width: 200px;
     }
 
     a {
       position: absolute;
-      left: 78%;
+      left: 70%;
       margin-top: -2.2rem;
     }
   }
