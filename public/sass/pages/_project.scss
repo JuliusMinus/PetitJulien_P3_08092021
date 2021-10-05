@@ -1,4 +1,3 @@
-
 /*css de la page d'acceuil*/
 
 body {
@@ -175,15 +174,52 @@ body {
 }
 
 /*media-querries tablet screen page d'acceuil*/
-@media only screen and (min-width: 550px) and (max-width: 800px) {
-  .btn-new {
-    left: 75%;
+@media only screen and (min-width: 704px) and (max-width: 2000px) {
+  .Fonctionnement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    h2 {
+      display: flex;
+      justify-content: center;
+      margin-left: -0.1rem;
+     
+    }
   }
-}
 
-/*media-querries desktop screen page d'acceuil*/
-@media only screen and (min-width: 801px) and (max-width: 1600px) {
-  .btn-new {
-    left: 85%;
+  .Cartes-restaurants {
+   padding-top: 5rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    h2 {
+      position: absolute;
+      top: -2rem;
+      margin-left: -0.2rem;
+    }
+   div a {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-content: center;
+        margin-top: 2rem;
+        width: 20rem;
+        height: 15rem;
+        margin: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+      }
+    }
   }
-}
+
+ 
+  
+
+

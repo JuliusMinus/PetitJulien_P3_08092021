@@ -394,16 +394,16 @@ body {
     left: 87%;
   }
   .carte .plat {
-    font-size: 14px;
-    width: 200px;
+    font-size: 13px;
+    width: 230px;
   }
   .carte .accompagnement {
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 1rem;
-    width: 200px;
+    width: 230px;
   }
   .carte a {
-    left: 80%;
+    left: 87%;
     top: 3rem;
   }
   .carte:hover .accompagnement,
@@ -419,6 +419,80 @@ body {
 }
 
 /* media querries pages menu tablet screen*/
+@media only screen and (min-width: 575px) and (max-width: 949px) {
+  .entrees,
+  .principal,
+  .desserts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .entrees .carte,
+  .principal .carte,
+  .desserts .carte {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 16rem;
+    height: 5rem;
+  }
+  .entrees .carte .plat,
+  .principal .carte .plat,
+  .desserts .carte .plat {
+    font-size: 16px;
+  }
+  .entrees .carte .accompagnement,
+  .principal .carte .accompagnement,
+  .desserts .carte .accompagnement {
+    font-size: 14px;
+  }
+  .entrees .carte a,
+  .principal .carte a,
+  .desserts .carte a {
+    margin-top: 3.8rem;
+    left: 80%;
+  }
+  .entrees .carte:hover .coche,
+  .principal .carte:hover .coche,
+  .desserts .carte:hover .coche {
+    width: 15%;
+    left: 85%;
+  }
+  .entrees .carte:hover .accompagnement,
+  .entrees .carte:hover .plat,
+  .principal .carte:hover .accompagnement,
+  .principal .carte:hover .plat,
+  .desserts .carte:hover .accompagnement,
+  .desserts .carte:hover .plat {
+    width: 180px;
+  }
+  .entrees .carte:hover a,
+  .principal .carte:hover a,
+  .desserts .carte:hover a {
+    position: absolute;
+    left: 70%;
+    margin-top: 3.8rem;
+  }
+}
+
 /* media querries pages menu desktop screen*/
 @media only screen and (min-width: 950px) and (max-width: 2000px) {
   .entrees,
@@ -438,29 +512,51 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .entrees .carte,
   .principal .carte,
   .desserts .carte {
     width: 28%;
   }
+  .entrees .carte .plat,
+  .principal .carte .plat,
+  .desserts .carte .plat {
+    font-size: 16px;
+  }
+  .entrees .carte .accompagnement,
+  .principal .carte .accompagnement,
+  .desserts .carte .accompagnement {
+    font-size: 13px;
+  }
   .entrees .carte a,
   .principal .carte a,
   .desserts .carte a {
-    left: 80%;
+    margin-top: -0.8rem;
+    left: 88%;
   }
-  .carte:hover .coche {
+  .entrees .carte:hover .coche,
+  .principal .carte:hover .coche,
+  .desserts .carte:hover .coche {
     width: 15%;
     left: 85%;
   }
-  .carte:hover .accompagnement,
-  .carte:hover .plat {
-    width: 200px;
+  .entrees .carte:hover .accompagnement,
+  .entrees .carte:hover .plat,
+  .principal .carte:hover .accompagnement,
+  .principal .carte:hover .plat,
+  .desserts .carte:hover .accompagnement,
+  .desserts .carte:hover .plat {
+    width: 180px;
   }
-  .carte:hover a {
+  .entrees .carte:hover a,
+  .principal .carte:hover a,
+  .desserts .carte:hover a {
     position: absolute;
     left: 70%;
-    margin-top: -2.2rem;
+    margin-top: -0.8rem;
   }
 }
 
@@ -842,16 +938,77 @@ body {
 }
 
 /*media-querries tablet screen page d'acceuil*/
-@media only screen and (min-width: 550px) and (max-width: 800px) {
-  .btn-new {
-    left: 75%;
+@media only screen and (min-width: 704px) and (max-width: 2000px) {
+  .Fonctionnement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
-}
-
-/*media-querries desktop screen page d'acceuil*/
-@media only screen and (min-width: 801px) and (max-width: 1600px) {
-  .btn-new {
-    left: 85%;
+  .Fonctionnement h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: -0.1rem;
+  }
+  .Cartes-restaurants {
+    padding-top: 5rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .Cartes-restaurants h2 {
+    position: absolute;
+    top: -2rem;
+    margin-left: -0.2rem;
+  }
+  .Cartes-restaurants div a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 15rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -116,7 +116,7 @@ body {
   position: absolute;
   left: 85%;
   margin-top: -3.7rem;
-  background-color: $color-quarternary; ;
+  background-color: $color-quarternary;
   color: $color-primary;
 }
 
@@ -171,17 +171,17 @@ body {
   }
   .carte {
     .plat {
-      font-size: 14px;
-      width: 200px;
+      font-size: 13px;
+      width: 230px;
     }
 
     .accompagnement {
-      font-size: 13px;
+      font-size: 12px;
       margin-top: 1rem;
-      width: 200px;
+      width: 230px;
     }
     a {
-      left: 80%;
+      left: 87%;
       top: 3rem;
     }
   }
@@ -201,11 +201,52 @@ body {
 
 /* media querries pages menu tablet screen*/
 
-@media only screen and (min-width: 550px) and (max-width: 949px) {
+@media only screen and (min-width: 575px) and (max-width: 949px) {
+  .entrees,
+  .principal,
+  .desserts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    .carte {
+      display: flex;
+      flex-direction: column;
+      width: 16rem;
+      height: 5rem;
+      .plat {
+        font-size: 16px;
+      }
+      .accompagnement {
+        font-size: 14px;
+      }
+      a {
+        margin-top: 3.8rem;
+        left: 80%;
+      }
+    }
 
+    .carte:hover {
+      .coche {
+        width: 15%;
+        left: 85%;
+      }
+
+      .accompagnement,
+      .plat {
+        width: 180px;
+      }
+
+      a {
+        position: absolute;
+        left: 70%;
+        margin-top: 3.8rem;
+      }
+    }
+  }
 }
-
-
 
 /* media querries pages menu desktop screen*/
 
@@ -218,29 +259,37 @@ body {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    justify-content: center;
     .carte {
       width: 28%;
+      .plat {
+        font-size: 16px;
+      }
+      .accompagnement {
+        font-size: 13px;
+      }
       a {
-        left: 80%;
+        margin-top: -0.8rem;
+        left: 88%;
       }
     }
-  }
 
-  .carte:hover {
-    .coche {
-      width: 15%;
-      left: 85%;
-    }
+    .carte:hover {
+      .coche {
+        width: 15%;
+        left: 85%;
+      }
 
-    .accompagnement,
-    .plat {
-      width: 200px;
-    }
+      .accompagnement,
+      .plat {
+        width: 180px;
+      }
 
-    a {
-      position: absolute;
-      left: 70%;
-      margin-top: -2.2rem;
+      a {
+        position: absolute;
+        left: 70%;
+        margin-top: -0.8rem;
+      }
     }
   }
 }
